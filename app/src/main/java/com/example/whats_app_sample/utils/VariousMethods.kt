@@ -14,7 +14,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
-import com.example.whats_app_sample.CAViewModel
+import com.example.whats_app_sample.repository.CAViewModel
 
 fun navigateTo(navController: NavController, route: String) {
     navController.navigate(route) {

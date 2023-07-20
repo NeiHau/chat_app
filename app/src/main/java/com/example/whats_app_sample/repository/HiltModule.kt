@@ -1,4 +1,4 @@
-package com.example.whats_app_sample
+package com.example.whats_app_sample.repository
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

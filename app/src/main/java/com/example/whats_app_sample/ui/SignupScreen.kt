@@ -29,7 +29,7 @@ import androidx.compose.ui.unit.sp
 import com.example.whats_app_sample.R
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.navigation.NavController
-import com.example.whats_app_sample.CAViewModel
+import com.example.whats_app_sample.repository.CAViewModel
 import com.example.whats_app_sample.routing.DestinationRouting
 import com.example.whats_app_sample.utils.CommonProgressSpinner
 import com.example.whats_app_sample.utils.navigateTo

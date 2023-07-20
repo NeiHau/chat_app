@@ -5,8 +5,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.whats_app_sample.CAViewModel
-import com.example.whats_app_sample.LoginScreen
+import com.example.whats_app_sample.repository.CAViewModel
+import com.example.whats_app_sample.ui.LoginScreen
 import com.example.whats_app_sample.ui.ChatListScreen
 import com.example.whats_app_sample.ui.ProfileScreen
 import com.example.whats_app_sample.ui.SignupScreen

@@ -1,4 +1,4 @@
-package com.example.whats_app_sample
+package com.example.whats_app_sample.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

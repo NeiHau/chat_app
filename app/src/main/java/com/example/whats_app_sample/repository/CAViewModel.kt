@@ -1,4 +1,4 @@
-package com.example.whats_app_sample
+package com.example.whats_app_sample.repository
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
