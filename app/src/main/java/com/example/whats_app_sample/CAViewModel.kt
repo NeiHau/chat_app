@@ -22,6 +22,10 @@ class CAViewModel @Inject constructor(
     val popupNotification = exceptionHandler.popupNotification
     private val signedIn = mutableStateOf(false)
 
+//    init {
+//        exceptionHandler.handleException(exception = null, "Test")
+//    }
+
     fun onSignup(name: String, number: String, email: String, password: String) {
         if (name.isEmpty() or number.isEmpty() or email.isEmpty() or password.isEmpty()) {
             exceptionHandler.handleException(
