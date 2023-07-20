@@ -54,6 +54,13 @@ fun SignupScreen(navController: NavController, vm: CAViewModel) {
 
             val focus = LocalFocusManager.current
 
+            Text(
+                text = "Signup",
+                modifier = Modifier.padding(8.dp),
+                fontSize = 30.sp,
+                fontFamily = FontFamily.SansSerif
+            )
+
             Image(
                 painter = painterResource(id = R.drawable.chat),
                 contentDescription = null,
@@ -61,13 +68,6 @@ fun SignupScreen(navController: NavController, vm: CAViewModel) {
                     .width(200.dp)
                     .padding(top = 16.dp)
                     .padding(8.dp)
-            )
-
-            Text(
-                text = "Signup",
-                modifier = Modifier.padding(8.dp),
-                fontSize = 30.sp,
-                fontFamily = FontFamily.SansSerif
             )
 
             OutlinedTextField(
@@ -79,21 +79,21 @@ fun SignupScreen(navController: NavController, vm: CAViewModel) {
 
             OutlinedTextField(
                 value = numberState.value,
-                onValueChange = { nameState.value = it },
+                onValueChange = { numberState.value = it },
                 modifier = Modifier.padding(8.dp),
                 label = { Text(text = "Number") }
             )
 
             OutlinedTextField(
                 value = emailState.value,
-                onValueChange = { nameState.value = it },
+                onValueChange = { emailState.value = it },
                 modifier = Modifier.padding(8.dp),
                 label = { Text(text = "Email") }
             )
 
             OutlinedTextField(
                 value = passwordState.value,
-                onValueChange = { nameState.value = it },
+                onValueChange = { passwordState.value = it },
                 modifier = Modifier.padding(8.dp),
                 label = { Text(text = "Password") },
                 visualTransformation = PasswordVisualTransformation()
