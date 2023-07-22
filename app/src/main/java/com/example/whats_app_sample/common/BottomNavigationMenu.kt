@@ -1,4 +1,4 @@
-package com.example.whats_app_sample.utils
+package com.example.whats_app_sample.common
 
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.foundation.Image
@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.whats_app_sample.R
 import com.example.whats_app_sample.routing.DestinationRouting
+import com.example.whats_app_sample.utils.navigateTo
 
 enum class BottomNavigationItem(val icon: Int, val navDestination: DestinationRouting) {
     PROFILE(R.drawable.baseline_profile, DestinationRouting.Profile),

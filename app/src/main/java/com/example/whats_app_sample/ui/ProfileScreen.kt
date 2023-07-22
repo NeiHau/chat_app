@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
-import com.example.whats_app_sample.utils.BottomNavigationItem
-import com.example.whats_app_sample.utils.BottomNavigationMenu
+import com.example.whats_app_sample.common.BottomNavigationItem
+import com.example.whats_app_sample.common.BottomNavigationMenu
 
 @Composable
 fun ProfileScreen(navController: NavController) {
